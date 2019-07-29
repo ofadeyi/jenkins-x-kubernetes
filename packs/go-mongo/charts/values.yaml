@@ -40,7 +40,7 @@ readinessProbe:
   timeoutSeconds: 1
 
 
-# 'code' will be replace with the name of the application when the build pack is applied
-code-db:
+# REPLACE_ME_APP_NAME will be replace with the name of the application when the build pack is applied
+REPLACE_ME_APP_NAME-db:
   replicaSet:
     enabled: true
