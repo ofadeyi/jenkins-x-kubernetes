@@ -2,4 +2,4 @@ extends:
   file: ../gradle/pipeline.yaml
 agent:
   label: jenkins-gradle5
-  container: gradle
+  container: gradle5
