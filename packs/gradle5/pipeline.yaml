@@ -1,5 +1,4 @@
 extends:
   file: ../gradle/pipeline.yaml
 agent:
-  label: jenkins-gradle5
-  container: gradle5
+  image: gcr.io/jenkinsxio/builder-gradle5:0.1.632
