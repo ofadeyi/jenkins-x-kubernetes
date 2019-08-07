@@ -2,7 +2,9 @@ extends:
   import: classic
   file: gradle/pipeline.yaml
 agent:
-  image: gcr.io/jenkinsxio/builder-gradle5:0.1.627
+  label: jenkins-gradle5
+  container: gradle5
+  # image: gcr.io/jenkinsxio/builder-gradle5:0.1.627
 pipelines:
   pullRequest:
     build:
